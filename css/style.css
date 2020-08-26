@@ -83,7 +83,7 @@ nav ul li a:hover{
     border: solid red 2px;
     transition-duration: 0.2;
 }
-.flex-container {
+.about.flex-container {
     width: 50%;
 }
 .about_settings{
@@ -112,13 +112,16 @@ nav ul li a:hover{
     padding-left: 50px;
     margin-left: 15px;
 }
+.services.flex-container {
+    display: flex;
+}
 .services_c1{
     text-align: center;
 }
 .services{
     padding-top: 50px;
     margin-top: 20px;
-    background-color: white;
+    background-color: aliceblue;
 }
 .services_c2{
     display: flex;
@@ -148,12 +151,14 @@ nav ul li a:hover{
     margin-top: 20px;
     background-color: white;
 }
+hr.hr_style {
+    width: 400px;
+    display: inline-block;
+}
 .form_c_n{
-    padding-top: 50px;
     padding-right: 585px;   
 }
 .form_c_e{
-    padding-top: 50px;
     padding-right: 590px;   
 }
 .form_c_1 {
